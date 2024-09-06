@@ -1,0 +1,175 @@
+.body{
+    background-color: #616F39;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.pic{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.pic img{
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid #F6FB7A;
+}
+.sulat{
+    text-align: center;
+    color: #F6FB7A;
+    font-size: 24px;
+    font-weight: bold;
+    margin: -50px;
+    font-family: Arial, sans-serif;
+    padding-bottom: 5%;
+}
+
+.abtme{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #F6FB7A;
+    
+}
+.abt{
+    text-align: center;
+    color: #F6FB7A;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.button-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #4a532f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c8bd2e;
+}
+.form{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-size: 15px;
+    color: #F6FB7A;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* HOBBIES */
+
+.hobis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.hobi-item {
+    text-align: center; 
+}
+
+.hobi-item img {
+    width: 400px; 
+    height: auto;
+    margin: 0 10px;
+}
+
+.hobi-item p {
+    margin-top: 10px;
+    font-size: 25px; 
+    color: #F6FB7A;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.myhabis{
+    text-align: center;
+    color: #F6FB7A;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px; 
+}
+
+
+/* SKILLS */
+
+.skills{
+    text-align: center;
+    color: #F6FB7A;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px; 
+    padding-top: 5%;
+
+}
+.skillz{
+    text-align: left;
+    color: #2f361b;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px; 
+    padding-left: 7%;
+    padding-right: 10%;
+    
+}
+.parag{
+    text-align: left;
+    color: #F6FB7A;
+    font-family: Arial, sans-serif;
+    font-size: 20px; 
+    padding-left: 5%;
+    padding-right: 10%;
+    text-align: justify;
+
+}
+
+/* TOOLS */
+
+.tools {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.tools-item {
+    text-align: center; 
+}
+
+.tools-item img {
+    width: 350px; 
+    height: auto;
+    margin: 0 10px;
+}
+
+.tools-item p {
+    margin-top: 10px;
+    font-size: 25px; 
+    color: #F6FB7A;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
